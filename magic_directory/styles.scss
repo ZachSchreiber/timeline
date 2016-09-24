@@ -198,3 +198,22 @@ bottom: 50px;
    }
 
 }
+
+@media only screen and (max-width: 400px) {
+
+    #longline {
+      visibility: hidden;
+    }
+
+    .textbox, .textbox2 {
+      float: none;
+      width: 100%;
+    }
+
+   .date-image {
+     float: none;
+     text-align: center;
+     width: 65%;
+   }
+
+}
